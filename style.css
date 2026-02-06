@@ -35,45 +35,51 @@ body{
 }
 
 /* ======================
-   SIDE OFFER
+   SIDE OFFER (RIGHT)
 ====================== */
 .side-offer{
   position:fixed;
-  right:-45px;
+  right:0;
   top:50%;
-  transform:translateY(-50%) rotate(-90deg);
+  transform:translateY(-50%);
+  width:48px;
+  height:200px;
   background: linear-gradient(
-    to right,
+    to bottom,
     #000000,
     #1a0002,
     #6b0d12,
     #b11217
   );
-  padding:14px 28px;
-  border-radius:12px 12px 0 0;
+  border-radius:16px 0 0 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   z-index:999;
-  cursor:pointer;
 }
 
+/* TEXT ROTATION */
 .side-offer span{
   color:#ffffff;
   font-size:14px;
   font-weight:700;
   letter-spacing:1px;
+  transform:rotate(-90deg);
   white-space:nowrap;
 }
 
+/* HOVER */
 .side-offer:hover{
   filter:brightness(1.15);
 }
 
-/* ======================
-   MOBILE
-====================== */
+/* MOBILE */
 @media (max-width: 768px){
   .side-offer{
     display:none;
   }
+}
+
 
   .top-bar{
     height:90px;
