@@ -74,9 +74,10 @@ body{
 /* TEXT ROTATION */
 .side-offer span{
   color:#ffffff;
-  font-size:14px;
-  font-weight:700;
-  letter-spacing:1px;
+  font-size: 26px;
+font-weight: 700;
+letter-spacing: 1px;
+
   transform:rotate(-90deg);
   white-space:nowrap;
 }
