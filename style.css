@@ -1,0 +1,85 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======================
+   TOP HEADER
+====================== */
+.top-bar{
+  width:100%;
+  height:110px;
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #1a0002 30%,
+    #6b0d12 65%,
+    #b11217 100%
+  );
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo{
+  height:70px;
+  max-width:80%;
+  object-fit:contain;
+}
+
+/* ======================
+   SIDE OFFER
+====================== */
+.side-offer{
+  position:fixed;
+  right:-45px;
+  top:50%;
+  transform:translateY(-50%) rotate(-90deg);
+  background: linear-gradient(
+    to right,
+    #000000,
+    #1a0002,
+    #6b0d12,
+    #b11217
+  );
+  padding:14px 28px;
+  border-radius:12px 12px 0 0;
+  z-index:999;
+  cursor:pointer;
+}
+
+.side-offer span{
+  color:#ffffff;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:1px;
+  white-space:nowrap;
+}
+
+.side-offer:hover{
+  filter:brightness(1.15);
+}
+
+/* ======================
+   MOBILE
+====================== */
+@media (max-width: 768px){
+  .side-offer{
+    display:none;
+  }
+
+  .top-bar{
+    height:90px;
+  }
+
+  .logo{
+    height:55px;
+  }
+}
