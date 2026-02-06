@@ -94,13 +94,11 @@ letter-spacing: 1px;
     height:55px;
   }
 }
-.logo{
-  height:150px !important;
-  width:auto;
-  display:block;
-}
-.logo{
-  height:130px;
+..logo{
+  height:150px;
   width:auto;
 }
 
+  display:block;
+}
+}
