@@ -94,9 +94,10 @@ letter-spacing: 1px;
     height:55px;
   }
 }
-..logo{
+.logo{
   height:150px;
-  width:auto;
+}
+
 }
 
   display:block;
