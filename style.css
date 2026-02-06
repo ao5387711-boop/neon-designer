@@ -27,23 +27,16 @@ body{
   align-items:center;
   justify-content:center;
 }
-
 .logo{
-  height:120px;
+  height:150px;
 }
 
 @media (max-width: 768px){
   .logo{
-    height:80px;
+    height:95px;
   }
 }
 
-
-@media (max-width: 768px){
-  .logo{
-    height:60px;
-  }
-}
 
 /* ======================
    SIDE OFFER (RIGHT)
