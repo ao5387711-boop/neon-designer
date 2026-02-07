@@ -54,24 +54,25 @@ body{
   display:block;
 }
 
-/* SHOP NOW BUTTON ON IMAGE */
+/* زرار Shop Now */
 .hero-btn-overlay{
   position:absolute;
   left:24px;
   bottom:24px;
-  padding:0;
-  background:transparent;
-  box-shadow:none;
 }
 
 .shop-btn-img{
-  height:60px;       /* كبر الزرار */
+  height:60px;
   width:auto;
   display:block;
 }
 
 /* موبايل */
 @media(max-width:768px){
+  .hero-image{
+    height:360px;
+  }
+
   .shop-btn-img{
     height:46px;
   }
