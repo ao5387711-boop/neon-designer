@@ -98,7 +98,52 @@ letter-spacing: 1px;
   width:auto;
 }
 
+}.hero{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  padding:40px 16px;
 }
+
+.hero-card{
+  max-width:1100px;
+  width:100%;
+  border-radius:24px;
+  overflow:hidden;
+  background:#fff;
+  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+}
+
+.hero-img{
+  width:100%;
+  display:block;
+}
+
+.hero-content{
+  padding:24px;
+}
+
+.hero-content h1{
+  font-size:32px;
+  margin:16px 0 8px;
+}
+
+.hero-content p{
+  font-size:18px;
+  color:#444;
+}
+
+.hero-btn{
+  display:inline-block;
+  background:#fff;
+  color:red;
+  font-weight:700;
+  padding:10px 22px;
+  border-radius:30px;
+  text-decoration:none;
+  border:2px solid red;
+}
+
 
 
   display:block;
