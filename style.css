@@ -59,9 +59,9 @@ body{
 /* BUTTON ON IMAGE */
 .hero-btn-overlay{
   position:absolute;
-  left:24px;
-  bottom:24px;
-  display:inline-block;
+  left:32px;
+  bottom:32px;
+  z-index:10;
 }
 
 .hero-btn-overlay img{
@@ -72,13 +72,13 @@ body{
 
 /* TEXT */
 .hero-content{
-  padding:24px 28px 32px;
+  padding:28px 32px;
   text-align:center;
 }
 
 .hero-content h1{
-  font-size:30px;
-  margin-bottom:6px;
+  font-size:32px;
+  margin-bottom:8px;
 }
 
 .hero-content p{
@@ -92,6 +92,8 @@ body{
   right:-52px;
   top:50%;
   transform:translateY(-50%) rotate(-90deg);
+  z-index:999;
+}
   background:linear-gradient(to right,#000,#8b0000);
   color:#fff;
   font-weight:700;
