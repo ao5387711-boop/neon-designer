@@ -55,17 +55,22 @@ body{
 }
 
 /* BUTTON ON IMAGE */
-.hero-btn{
+.hero-btn-overlay{
   position:absolute;
-  left:30px;
-  bottom:30px;
-  background:#fff;
-  color:#e60000;
-  padding:10px 22px;
-  border-radius:30px;
-  font-weight:700;
-  text-decoration:none;
-  font-size:14px;
+  left:24px;
+  bottom:24px;
+  display:inline-block;
+}
+
+.hero-btn-overlay img{
+  height:38px; /* كبر/صغر على مزاجك */
+  width:auto;
+  display:block;
+}
+@media (max-width:768px){
+  .hero-btn-overlay img{
+    height:32px;
+  }
 }
 
 /* TEXT */
