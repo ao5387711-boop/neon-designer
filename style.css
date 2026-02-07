@@ -83,17 +83,19 @@ body{
 }
 
 /* ================= DISCOUNT ================= */
-.discount-badge{
+..discount-badge{
   position:fixed;
-  right:-52px;
+  right:-34px;
   top:50%;
   transform:translateY(-50%) rotate(-90deg);
   background:linear-gradient(to right,#000,#8b0000);
   color:#fff;
   font-weight:700;
-  padding:10px 30px;
+  padding:12px 34px;
   border-radius:20px 20px 0 0;
   z-index:999;
+}
+;
 }
 
 /* ================= MOBILE ================= */
