@@ -6,16 +6,24 @@
 }
 
 body{
+  body{
+  background:#fff;
+  min-height:100vh;
+}
+
   background:#ffffff;
 }
 
 /* ===== HEADER ===== */
 .hero-header{
+  width:100%;
   height:160px;
   display:flex;
   justify-content:center;
   align-items:center;
   background:linear-gradient(to right, #000, #8b0000);
+  position:relative;
+  z-index:10;
 }
 
 .logo{
@@ -24,20 +32,20 @@ body{
 }
 
 /* ===== HERO ===== */
-.hero{
-  padding:40px 16px;
+..hero{
+  width:100%;
+  padding:40px 0;
   display:flex;
   justify-content:center;
 }
 
-.hero-card{
-  max-width:1100px;
-  width:100%;
-  background:#fff;
-  border-radius:24px;
-  overflow:hidden;
-  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+
+..hero-card{
+  max-width:1000px;
+  width:90%;
+  margin:0 auto;
 }
+
 
 /* IMAGE */
 .hero-img-wrap{
@@ -50,21 +58,22 @@ body{
 }
 
 /* BUTTON OVER IMAGE */
-.hero-btn-overlay{
+..hero-btn-overlay{
   position:absolute;
-  bottom:20px;
-  left:20px;
+  bottom:16px;
+  left:16px;
 
   background:#fff;
-  color:red;
+  color:#e60000;
   font-weight:700;
-  padding:10px 24px;
+  padding:8px 20px;
   border-radius:30px;
+  border:2px solid #e60000;
   text-decoration:none;
-  border:2px solid red;
 
-  box-shadow:0 4px 15px rgba(0,0,0,0.3);
+  box-shadow:0 4px 12px rgba(0,0,0,0.4);
 }
+
 
 /* TEXT */
 .hero-text{
@@ -101,4 +110,17 @@ body{
   .hero-text p{
     font-size:16px;
   }
+}.discount-badge{
+  position:fixed;
+  right:0;
+  top:50%;
+  transform:translateY(-50%) rotate(-90deg);
+
+  background:linear-gradient(to right,#000,#8b0000);
+  color:#fff;
+  font-weight:700;
+  padding:10px 24px;
+  border-radius:20px 20px 0 0;
+  z-index:20;
 }
+
