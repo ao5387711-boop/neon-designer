@@ -1,3 +1,4 @@
+/* RESET */
 *{
   margin:0;
   padding:0;
@@ -17,9 +18,6 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  position:sticky;
-  top:0;
-  z-index:100;
 }
 
 .logo{
@@ -65,9 +63,7 @@ body{
 }
 
 .hero-btn-overlay img{
-  height:42px;
-  width:auto;
-  display:block;
+  height:44px;
 }
 
 /* TEXT */
@@ -83,7 +79,7 @@ body{
 
 .hero-content p{
   color:#555;
-  font-size:15px;
+  font-size:16px;
 }
 
 /* ================= DISCOUNT ================= */
@@ -92,36 +88,30 @@ body{
   right:-52px;
   top:50%;
   transform:translateY(-50%) rotate(-90deg);
-  z-index:999;
-}
   background:linear-gradient(to right,#000,#8b0000);
   color:#fff;
   font-weight:700;
-  padding:10px 34px;
+  padding:10px 30px;
   border-radius:20px 20px 0 0;
-  z-index:200;
+  z-index:999;
 }
 
 /* ================= MOBILE ================= */
 @media(max-width:768px){
-
-  .logo{
-    height:55px;
-  }
-
-  .hero{
-    padding:30px 12px;
-  }
-
-  .hero-btn-overlay img{
-    height:34px;
+  .hero-image{
+    height:360px;
   }
 
   .hero-content h1{
     font-size:22px;
   }
 
-  .hero-content p{
-    font-size:14px;
+  .logo{
+    height:55px;
   }
+
+  .hero-btn-overlay img{
+    height:36px;
+  }
+}
 }
