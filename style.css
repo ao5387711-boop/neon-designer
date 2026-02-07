@@ -48,17 +48,24 @@ body{
   position:relative;
 }
 
+.hero-img-wrap{
+  position:relative;
+  aspect-ratio: 16 / 9;
+  overflow:hidden;
+}
+
 .hero-img-wrap img{
   width:100%;
+  height:100%;
+  object-fit:cover;
   display:block;
 }
 
 /* BUTTON OVER IMAGE */
 .hero-btn-overlay{
-  position:absolute;
-  bottom:16px;
-  left:16px;
-
+  bottom:24px;
+  left:24px;
+}
   background:#fff;
   color:#e60000;
   font-weight:700;
